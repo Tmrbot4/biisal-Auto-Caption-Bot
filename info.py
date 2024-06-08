@@ -17,7 +17,7 @@ def is_enabled(value, default):
 ADMIN = int(getenv("ADMIN", "6987799874"))
 API_ID = int(getenv("API_ID", "23171051"))
 API_HASH = str(getenv("API_HASH", "10331d5d712364f57ffdd23417f4513c"))
-BOT_TOKEN = str(getenv("BOT_TOKEN", "7343805166:AAHtmz0TxF0mq5YmJGnEEFYSDc2GPH9vgyA"))
+BOT_TOKEN = str(getenv("BOT_TOKEN", "6937173585:AAF1j5SZRZeYb3hejDaxh7kdtYWQKO_utb4"))
 MONGO_DB = str(
     getenv(
         "MONGO_DB",
@@ -27,6 +27,6 @@ MONGO_DB = str(
 DEF_CAP = str(
     getenv(
         "DEF_CAP",
-        "<b><a href='telegram.me/bisal_files'>{file_name} Telegram : @Bisal_Files\n\nForward the file before Downloading.</a></b>",
+        "<b><a href='telegram.me/bisal_files'>{file_name} Telegram : @TMR_update_channel\n\nForward the file before Downloading.</a></b>",
     )
 )
