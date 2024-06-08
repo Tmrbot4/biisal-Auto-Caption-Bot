@@ -10,7 +10,7 @@ from pyrogram.errors import FloodWait
 @Client.on_message(filters.command("start") & filters.private)
 async def strtCap(bot, message):
     return await message.reply(
-        "<b>Jai Shree Ram...\n\nI'm an auto-caption bot. I automatically edit captions for videos, audio files, and documents posted on channels.\n\nuse <code>/cap</code> to set caption\nUse<code>/delcap</code> To delete caption and set caption to default.\n\nNote:All commands works on channels only \n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vishal Kumar</b>"
+        "<b>Jai Shree Ram...\n\nI'm an auto-caption bot. I automatically edit captions for videos, audio files, and documents posted on channels.\n\nuse <code>/cap</code> to set caption\nUse<code>/delcap</code> To delete caption and set caption to default.\n\nNote:All commands works on channels only \n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vishal Kumar</a></b>"
     )
 
 
