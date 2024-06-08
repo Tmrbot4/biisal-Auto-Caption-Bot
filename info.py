@@ -14,10 +14,10 @@ def is_enabled(value, default):
         return default
 
 
-ADMIN = int(getenv("ADMIN", ""))
-API_ID = int(getenv("API_ID", ""))
-API_HASH = str(getenv("API_HASH", ""))
-BOT_TOKEN = str(getenv("BOT_TOKEN", ""))
+ADMIN = int(getenv("ADMIN", "6987799874"))
+API_ID = int(getenv("API_ID", "23171051"))
+API_HASH = str(getenv("API_HASH", "10331d5d712364f57ffdd23417f4513c"))
+BOT_TOKEN = str(getenv("BOT_TOKEN", "7343805166:AAHtmz0TxF0mq5YmJGnEEFYSDc2GPH9vgyA"))
 MONGO_DB = str(
     getenv(
         "MONGO_DB",
