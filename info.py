@@ -21,7 +21,7 @@ BOT_TOKEN = str(getenv("BOT_TOKEN", "7343805166:AAHtmz0TxF0mq5YmJGnEEFYSDc2GPH9v
 MONGO_DB = str(
     getenv(
         "MONGO_DB",
-        "mongodb+srv://replacewithyourmongodb:replacewithyourmongodb@cluster0.zi78j51.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority",
     )
 )
 DEF_CAP = str(
